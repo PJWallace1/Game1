@@ -2,6 +2,8 @@
   "resources": [
     {"id":{"name":"Spr_Alien","path":"sprites/Spr_Alien/Spr_Alien.yy",},"order":0,},
     {"id":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},"order":1,},
+    {"id":{"name":"Spr_Alien2","path":"sprites/Spr_Alien2/Spr_Alien2.yy",},"order":3,},
+    {"id":{"name":"Spr_Alien1","path":"sprites/Spr_Alien1/Spr_Alien1.yy",},"order":2,},
     {"id":{"name":"Obj_Alien","path":"objects/Obj_Alien/Obj_Alien.yy",},"order":0,},
     {"id":{"name":"Spr_Wall","path":"sprites/Spr_Wall/Spr_Wall.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
