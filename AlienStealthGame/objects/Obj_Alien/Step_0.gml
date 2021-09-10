@@ -42,10 +42,10 @@ if(place_meeting(x, y + vsp, Obj_Wall))
 y += vsp;
 
 //Animation
-/*
+
 if(!place_meeting(x, y+1, Obj_Wall))
 {
-	 sprite_index = sPlayerA;
+	 sprite_index = Spr_Alien_Air; //Supposed to be Apr_Alien_Air
 	 image_speed = 0;
 	 if(sign(vsp) > 0)
 	 {
@@ -61,11 +61,11 @@ else
 	image_speed = 1;
 	if(hsp == 0)
 	{
-		sprite_index = sPlayer;
+		sprite_index = Spr_Alien;
 	}
 	else
 	{
-		sprite_index = sPlayerR;
+		sprite_index = Spr_Alien_Run;
 	}
 }
 
@@ -73,4 +73,3 @@ if(hsp != 0)
 {
 	image_xscale = sign(hsp);
 }
-*/
