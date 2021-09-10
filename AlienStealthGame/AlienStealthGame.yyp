@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"Spr_Alien0","path":"sprites/Spr_Alien0/Spr_Alien0.yy",},"order":0,},
     {"id":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},"order":1,},
+    {"id":{"name":"Obj_Camera","path":"objects/Obj_Camera/Obj_Camera.yy",},"order":2,},
     {"id":{"name":"Spr_Alien_Air1","path":"sprites/Spr_Alien_Air1/Spr_Alien_Air1.yy",},"order":8,},
     {"id":{"name":"Spr_Alien","path":"sprites/Spr_Alien/Spr_Alien.yy",},"order":3,},
     {"id":{"name":"Spr_Alien_Run","path":"sprites/Spr_Alien_Run/Spr_Alien_Run.yy",},"order":2,},
