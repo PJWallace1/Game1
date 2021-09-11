@@ -2,6 +2,14 @@
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_jump = keyboard_check(vk_space) || keyboard_check(ord("W"));
+key_crouch = keyboard_check(vk_shift) || keyboard_check(ord("C"));
+
+if(key_crouch){
+	walksp = 2;
+}
+else{
+	walksp = 4;
+}
 
 //Calculate movement
 var move = key_right - key_left;
@@ -43,9 +51,17 @@ y += vsp;
 
 //Animation
 
-if(!place_meeting(x, y+1, Obj_Wall))
+if(key_crouch){
+	sprite_index = Spr_Alien_Crouch;
+	image_speed = 1;
+	if(image_index == 1){
+		image_speed = 0;
+		image_index = 1;
+	}
+}
+else if(!place_meeting(x, y+1, Obj_Wall))
 {
-	 sprite_index = Spr_Alien_Air; //Supposed to be Apr_Alien_Air
+	 sprite_index = Spr_Alien_Air;
 	 image_speed = 0;
 	 if(sign(vsp) > 0)
 	 {
