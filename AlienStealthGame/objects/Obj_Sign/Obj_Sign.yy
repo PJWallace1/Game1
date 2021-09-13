@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Door",
-    "path": "sprites/Spr_Door/Spr_Door.yy",
+    "name": "Spr_Sign_First",
+    "path": "sprites/Spr_Sign_First/Spr_Sign_First.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,16 +21,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_Alien","path":"objects/Obj_Alien/Obj_Alien.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":54,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [],
+  "properties": [
+    {"varType":2,"value":"\"default\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"text","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Door",
+  "name": "Obj_Sign",
   "tags": [],
   "resourceType": "GMObject",
 }
