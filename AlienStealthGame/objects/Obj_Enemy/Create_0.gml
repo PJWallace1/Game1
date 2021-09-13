@@ -5,3 +5,5 @@ hsp = walksp; //horizontal speed
 
 hp = 1; //hitpoints
 hitfrom = 0;
+
+sightID = instance_create_layer(x,y,"Enemies",Obj_Enemy_Sight);

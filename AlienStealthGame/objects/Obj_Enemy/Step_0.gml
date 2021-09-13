@@ -10,13 +10,21 @@ if(place_meeting(x + hsp, y, Obj_Wall))
 	}
 	hsp = -hsp;
 }
-//Prevent enemies from falling off platforms
-if(!place_meeting(x + hsp, y + 1, Obj_Wall))
-{
-	hsp = -hsp;
-}
 
 x += hsp;
+
+//Modify Enemy Sight
+with(sightID){
+	x = other.x;
+	y = other.y;
+	image_xscale = sign(other.hsp);
+	if(other.hsp > 0){
+		direction = 0;
+	}
+	else{
+		direction = 180;
+	}
+}
 
 //Vertical Collision
 if(place_meeting(x, y + vsp, Obj_Wall))

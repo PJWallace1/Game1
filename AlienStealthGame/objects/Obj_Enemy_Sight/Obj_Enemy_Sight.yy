@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Bullet",
-    "path": "sprites/Spr_Bullet/Spr_Bullet.yy",
+    "name": "Spr_Enemy_Sight",
+    "path": "sprites/Spr_Enemy_Sight/Spr_Enemy_Sight.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,18 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":77,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_Enemy","path":"objects/Obj_Enemy/Obj_Enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  "eventList": [],
+  "properties": [
+    {"varType":3,"value":"False","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"didCollide","tags":[],"resourceType":"GMObjectProperty",},
   ],
-  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Bullet",
+  "name": "Obj_Enemy_Sight",
   "tags": [],
   "resourceType": "GMObject",
 }
