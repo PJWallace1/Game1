@@ -19,10 +19,10 @@ else{
 	firingdelay = firingdelay -1;
 	recoil = max(0,recoil - 1);
 
-	if (mouse_check_button(mb_left)) && (firingdelay < 0)
+	if (mouse_check_button_pressed(mb_left)) && (firingdelay < 0)
 	{
 		recoil = 4;
-		firingdelay = 100;
+		firingdelay = 20;
 		with (instance_create_layer(x,y,"Bullets",Obj_Bullet))
 		{
 			speed = 33;

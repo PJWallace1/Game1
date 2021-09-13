@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"Spr_Alien0","path":"sprites/Spr_Alien0/Spr_Alien0.yy",},"order":0,},
+    {"id":{"name":"Obj_Text","path":"objects/Obj_Text/Obj_Text.yy",},"order":10,},
     {"id":{"name":"Crate","path":"sprites/Crate/Crate.yy",},"order":12,},
     {"id":{"name":"Room_1","path":"rooms/Room_1/Room_1.yy",},"order":2,},
     {"id":{"name":"Spr_Alien_Crouch","path":"sprites/Spr_Alien_Crouch/Spr_Alien_Crouch.yy",},"order":10,},
@@ -14,6 +15,7 @@
     {"id":{"name":"Spr_Alien","path":"sprites/Spr_Alien/Spr_Alien.yy",},"order":3,},
     {"id":{"name":"Spr_Alien_Run","path":"sprites/Spr_Alien_Run/Spr_Alien_Run.yy",},"order":2,},
     {"id":{"name":"Obj_Alien","path":"objects/Obj_Alien/Obj_Alien.yy",},"order":0,},
+    {"id":{"name":"fSign","path":"fonts/fSign/fSign.yy",},"order":0,},
     {"id":{"name":"Obj_Enemy_Sight","path":"objects/Obj_Enemy_Sight/Obj_Enemy_Sight.yy",},"order":8,},
     {"id":{"name":"Spr_Gun","path":"sprites/Spr_Gun/Spr_Gun.yy",},"order":14,},
     {"id":{"name":"Obj_Dead","path":"objects/Obj_Dead/Obj_Dead.yy",},"order":5,},
@@ -22,7 +24,9 @@
     {"id":{"name":"Spr_Alien_Air","path":"sprites/Spr_Alien_Air/Spr_Alien_Air.yy",},"order":9,},
     {"id":{"name":"Spr_Enemy","path":"sprites/Spr_Enemy/Spr_Enemy.yy",},"order":13,},
     {"id":{"name":"Obj_Gun","path":"objects/Obj_Gun/Obj_Gun.yy",},"order":6,},
+    {"id":{"name":"Spr_Marker","path":"sprites/Spr_Marker/Spr_Marker.yy",},"order":17,},
     {"id":{"name":"Room_Boss","path":"rooms/Room_Boss/Room_Boss.yy",},"order":3,},
+    {"id":{"name":"Spr_Sign","path":"sprites/Spr_Sign/Spr_Sign.yy",},"order":18,},
     {"id":{"name":"Obj_Bullet","path":"objects/Obj_Bullet/Obj_Bullet.yy",},"order":7,},
     {"id":{"name":"Spr_Wall","path":"sprites/Spr_Wall/Spr_Wall.yy",},"order":1,},
     {"id":{"name":"Room_Tutorial","path":"rooms/Room_Tutorial/Room_Tutorial.yy",},"order":0,},
