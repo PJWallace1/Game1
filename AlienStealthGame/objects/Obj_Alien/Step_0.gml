@@ -6,9 +6,13 @@ key_crouch = keyboard_check(vk_shift) || keyboard_check(ord("C"));
 
 if(key_crouch){
 	walksp = 2;
+	grv = 0.8;
+	mask_index = Spr_Alien_Crouch;
 }
 else{
 	walksp = 4;
+	grv = 0.3;
+	mask_index = Spr_Alien;
 }
 
 //Calculate movement
@@ -18,7 +22,7 @@ hsp = move * walksp;
 
 vsp += grv;
 
-if(place_meeting(x, y + 1, Obj_Wall) && key_jump)
+if((place_meeting(x, y + 1, Obj_Wall) || position_meeting(x, y + 2, Obj_Platform)) && key_jump)
 {
 	vsp = -7;
 }
@@ -46,6 +50,10 @@ if(place_meeting(x, y + vsp, Obj_Wall))
 	}
 	vsp = 0;
 }
+else if(position_meeting(x, y + 5, Obj_Platform))
+{
+	vsp = 0;
+}
 
 y += vsp;
 
@@ -59,7 +67,7 @@ if(key_crouch){
 		image_index = 1;
 	}
 }
-else if(!place_meeting(x, y+1, Obj_Wall))
+else if(!place_meeting(x, y+1, Obj_Wall) && !position_meeting(x, y + 1, Obj_Platform))
 {
 	 sprite_index = Spr_Alien_Air;
 	 image_speed = 0;

@@ -1,14 +1,11 @@
 {
   "spriteId": {
-    "name": "Spr_Alien",
-    "path": "sprites/Spr_Alien/Spr_Alien.yy",
+    "name": "Spr_Alien0",
+    "path": "sprites/Spr_Alien0/Spr_Alien0.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "Spr_Alien",
-    "path": "sprites/Spr_Alien/Spr_Alien.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -26,7 +23,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":82,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -35,7 +32,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Alien",
+  "name": "Obj_Enemy",
   "tags": [],
   "resourceType": "GMObject",
 }
