@@ -1,7 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 x = Obj_Alien.x;
-y = Obj_Alien.y +10;
+if(Obj_Alien.key_crouch){
+	y = Obj_Alien.y - 16;
+}
+else{
+	y = Obj_Alien.y - 35;
+}
 
 image_angle = point_direction(x,y,mouse_x,mouse_y); 
 
@@ -11,10 +16,10 @@ recoil = max(0,recoil - 1);
 if (mouse_check_button(mb_left)) && (firingdelay < 0)
 {
 	recoil = 4;
-	firingdelay = 5;
-	with (instance_create_layer(x,y,"bullet",Obj_Bullet))
+	firingdelay = 100;
+	with (instance_create_layer(x,y,"Bullets",Obj_Bullet))
 	{
-		speed = 25;
+		speed = 50;
 		direction = other.image_angle + random_range (-3,3);
 		image_angle = direction;
 	}
