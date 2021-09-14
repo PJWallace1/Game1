@@ -4,7 +4,7 @@
     "path": "sprites/Spr_Enemy_Sight/Spr_Enemy_Sight.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
