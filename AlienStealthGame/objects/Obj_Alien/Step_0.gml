@@ -2,6 +2,7 @@
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_jump = keyboard_check(vk_space) || keyboard_check(ord("W"));
+key_down = keyboard_check(vk_up) || keyboard_check(ord("S"));
 key_crouch = keyboard_check(vk_shift) || keyboard_check(ord("C"));
 
 if(key_crouch){
@@ -22,6 +23,7 @@ hsp = move * walksp;
 
 vsp += grv;
 
+//Jump
 if((place_meeting(x, y + 1, Obj_Wall) || position_meeting(x, y + 2, Obj_Platform)) && key_jump)
 {
 	vsp = -7;
@@ -50,7 +52,7 @@ if(place_meeting(x, y + vsp, Obj_Wall))
 	}
 	vsp = 0;
 }
-else if(position_meeting(x, y + 5, Obj_Platform))
+else if(position_meeting(x, y + 1, Obj_Platform) && !key_down && vsp >= 0)
 {
 	vsp = 0;
 }
