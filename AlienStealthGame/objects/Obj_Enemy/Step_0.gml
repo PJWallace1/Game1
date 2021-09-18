@@ -27,10 +27,10 @@ with(sightID){
 }
 
 //Vertical Collision
-if(place_meeting(x, y + vsp, Obj_Wall))
+if(place_meeting(x, y + vsp, Obj_Wall) || place_meeting(x, y + vsp, Obj_Platform))
 {
 	//sign() returns -1 for negative value and 1 for positive value
-	while(!place_meeting(x, y + sign(vsp), Obj_Wall))
+	while(!place_meeting(x, y + sign(vsp), Obj_Wall) && !place_meeting(x, y + sign(vsp), Obj_Platform))
 	{
 		y += sign(vsp);
 	}
