@@ -8,6 +8,8 @@
     {"id":{"name":"Obj_Door","path":"objects/Obj_Door/Obj_Door.yy",},"order":11,},
     {"id":{"name":"Spr_Alien_Crouch","path":"sprites/Spr_Alien_Crouch/Spr_Alien_Crouch.yy",},"order":10,},
     {"id":{"name":"Obj_Enemy","path":"objects/Obj_Enemy/Obj_Enemy.yy",},"order":4,},
+    {"id":{"name":"Obj_Enemy_Sight2","path":"objects/Obj_Enemy_Sight2/Obj_Enemy_Sight2.yy",},"order":15,},
+    {"id":{"name":"Spr_Enemy_Sight2","path":"sprites/Spr_Enemy_Sight2/Spr_Enemy_Sight2.yy",},"order":22,},
     {"id":{"name":"Spr_Bullet","path":"sprites/Spr_Bullet/Spr_Bullet.yy",},"order":15,},
     {"id":{"name":"Obj_Enemy_Bullet","path":"objects/Obj_Enemy_Bullet/Obj_Enemy_Bullet.yy",},"order":9,},
     {"id":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},"order":1,},
