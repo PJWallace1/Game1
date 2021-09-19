@@ -28,6 +28,8 @@
     {"id":{"name":"Spr_Enemy","path":"sprites/Spr_Enemy/Spr_Enemy.yy",},"order":13,},
     {"id":{"name":"Obj_Gun","path":"objects/Obj_Gun/Obj_Gun.yy",},"order":6,},
     {"id":{"name":"Spr_Marker","path":"sprites/Spr_Marker/Spr_Marker.yy",},"order":17,},
+    {"id":{"name":"Spr_Enemy2","path":"sprites/Spr_Enemy2/Spr_Enemy2.yy",},"order":21,},
+    {"id":{"name":"Obj_Enemy2","path":"objects/Obj_Enemy2/Obj_Enemy2.yy",},"order":14,},
     {"id":{"name":"Room_Boss","path":"rooms/Room_Boss/Room_Boss.yy",},"order":2,},
     {"id":{"name":"Obj_Game","path":"objects/Obj_Game/Obj_Game.yy",},"order":13,},
     {"id":{"name":"Spr_Sign_First","path":"sprites/Spr_Sign_First/Spr_Sign_First.yy",},"order":18,},
