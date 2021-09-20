@@ -1,9 +1,16 @@
 //Get player input
-key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
-key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
-key_jump = keyboard_check(vk_space) || keyboard_check(ord("W"));
-key_down = keyboard_check(vk_up) || keyboard_check(ord("S"));
-key_crouch = keyboard_check(vk_shift) || keyboard_check(ord("C"));
+if(hascontrol){
+	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
+	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
+	key_jump = keyboard_check(vk_space) || keyboard_check(ord("W"));
+	key_down = keyboard_check(vk_up) || keyboard_check(ord("S"));
+	key_crouch = keyboard_check(vk_shift) || keyboard_check(ord("C"));
+} else {
+	key_right = 0;
+	key_left = 0;
+	key_jump = 0;
+	//key_crouch = 0;
+}
 
 if(key_crouch){
 	walksp = 2;
