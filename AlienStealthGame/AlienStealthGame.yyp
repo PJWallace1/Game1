@@ -1,9 +1,10 @@
 {
   "resources": [
     {"id":{"name":"Spr_Alien0","path":"sprites/Spr_Alien0/Spr_Alien0.yy",},"order":0,},
+    {"id":{"name":"Spr_Electric","path":"sprites/Spr_Electric/Spr_Electric.yy",},"order":23,},
     {"id":{"name":"Obj_Text","path":"objects/Obj_Text/Obj_Text.yy",},"order":10,},
     {"id":{"name":"Crate","path":"sprites/Crate/Crate.yy",},"order":12,},
-    {"id":{"name":"Room_1","path":"rooms/Room_1/Room_1.yy",},"order":3,},
+    {"id":{"name":"Room_3","path":"rooms/Room_3/Room_3.yy",},"order":3,},
     {"id":{"name":"Spr_Sign","path":"sprites/Spr_Sign/Spr_Sign.yy",},"order":20,},
     {"id":{"name":"Obj_Door","path":"objects/Obj_Door/Obj_Door.yy",},"order":11,},
     {"id":{"name":"Spr_Alien_Crouch","path":"sprites/Spr_Alien_Crouch/Spr_Alien_Crouch.yy",},"order":10,},
@@ -19,9 +20,11 @@
     {"id":{"name":"Obj_Sign","path":"objects/Obj_Sign/Obj_Sign.yy",},"order":12,},
     {"id":{"name":"Room_2","path":"rooms/Room_2/Room_2.yy",},"order":1,},
     {"id":{"name":"Spr_Alien","path":"sprites/Spr_Alien/Spr_Alien.yy",},"order":3,},
+    {"id":{"name":"Room_1","path":"rooms/Room_1/Room_1.yy",},"order":6,},
     {"id":{"name":"Spr_Alien_Run","path":"sprites/Spr_Alien_Run/Spr_Alien_Run.yy",},"order":2,},
     {"id":{"name":"Obj_Alien","path":"objects/Obj_Alien/Obj_Alien.yy",},"order":0,},
     {"id":{"name":"fSign","path":"fonts/fSign/fSign.yy",},"order":0,},
+    {"id":{"name":"Obj_Electric","path":"objects/Obj_Electric/Obj_Electric.yy",},"order":18,},
     {"id":{"name":"Obj_Enemy_Sight","path":"objects/Obj_Enemy_Sight/Obj_Enemy_Sight.yy",},"order":8,},
     {"id":{"name":"Spr_Gun","path":"sprites/Spr_Gun/Spr_Gun.yy",},"order":14,},
     {"id":{"name":"Obj_Dead","path":"objects/Obj_Dead/Obj_Dead.yy",},"order":5,},
@@ -62,10 +65,11 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Room_Menu","path":"rooms/Room_Menu/Room_Menu.yy",},},
     {"roomId":{"name":"Room_Tutorial","path":"rooms/Room_Tutorial/Room_Tutorial.yy",},},
-    {"roomId":{"name":"Room_1","path":"rooms/Room_1/Room_1.yy",},},
+    {"roomId":{"name":"Room_3","path":"rooms/Room_3/Room_3.yy",},},
     {"roomId":{"name":"Room_2","path":"rooms/Room_2/Room_2.yy",},},
     {"roomId":{"name":"Room_Boss","path":"rooms/Room_Boss/Room_Boss.yy",},},
     {"roomId":{"name":"Room_Credits","path":"rooms/Room_Credits/Room_Credits.yy",},},
+    {"roomId":{"name":"Room_1","path":"rooms/Room_1/Room_1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
