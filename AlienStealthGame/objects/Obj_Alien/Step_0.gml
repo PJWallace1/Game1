@@ -15,12 +15,10 @@ if(hascontrol){
 if(key_crouch){
 	walksp = 2;
 	grv = 0.8;
-	mask_index = Spr_Alien_Crouch;
 }
 else{
 	walksp = 4;
 	grv = 0.3;
-	mask_index = Spr_Alien;
 }
 
 //Calculate movement
@@ -70,6 +68,7 @@ y += vsp;
 
 if(key_crouch){
 	sprite_index = Spr_Alien_Crouch;
+	mask_index = Spr_Alien_Crouch;
 	image_speed = 1;
 	if(image_index == 1){
 		image_speed = 0;
@@ -79,6 +78,7 @@ if(key_crouch){
 else if(!place_meeting(x, y+1, Obj_Wall) && !position_meeting(x, y + 1, Obj_Platform))
 {
 	 sprite_index = Spr_Alien_Air;
+	 mask_index = Spr_Alien;
 	 image_speed = 0;
 	 if(sign(vsp) > 0)
 	 {
@@ -92,6 +92,7 @@ else if(!place_meeting(x, y+1, Obj_Wall) && !position_meeting(x, y + 1, Obj_Plat
 else
 {
 	image_speed = 1;
+	mask_index = Spr_Alien;
 	if(hsp == 0)
 	{
 		sprite_index = Spr_Alien;
