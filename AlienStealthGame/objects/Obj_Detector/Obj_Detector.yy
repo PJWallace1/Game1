@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Enemy_Sight",
-    "path": "sprites/Spr_Enemy_Sight/Spr_Enemy_Sight.yy",
+    "name": "Sprite_Detector",
+    "path": "sprites/Sprite_Detector/Sprite_Detector.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,16 +23,14 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [
-    {"varType":3,"value":"False","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"didCollide","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Enemy_Sight",
+  "name": "Obj_Detector",
   "tags": [],
   "resourceType": "GMObject",
 }
