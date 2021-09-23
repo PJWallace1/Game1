@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite_Detector_Sight",
-    "path": "sprites/Sprite_Detector_Sight/Sprite_Detector_Sight.yy",
+    "name": "Spr_Detector_Sight",
+    "path": "sprites/Spr_Detector_Sight/Spr_Detector_Sight.yy",
   },
   "solid": false,
   "visible": true,
