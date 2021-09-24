@@ -1,4 +1,4 @@
-if(firingdelay < 0)
+if(works && firingdelay < 0)
 {
 	recoil = 4;
 	firingdelay = 50;

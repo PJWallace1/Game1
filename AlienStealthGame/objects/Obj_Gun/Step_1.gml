@@ -19,7 +19,7 @@ else{
 	firingdelay = firingdelay -1;
 	recoil = max(0,recoil - 1);
 
-	if (mouse_check_button_pressed(mb_left)) && (firingdelay < 0)
+	if (works && mouse_check_button_pressed(mb_left)) && (firingdelay < 0)
 	{
 		recoil = 4;
 		firingdelay = 20;
