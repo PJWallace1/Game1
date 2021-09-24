@@ -8,6 +8,7 @@
     {"id":{"name":"Spr_Detector_Sight","path":"sprites/Spr_Detector_Sight/Spr_Detector_Sight.yy",},"order":25,},
     {"id":{"name":"Spr_Sign","path":"sprites/Spr_Sign/Spr_Sign.yy",},"order":20,},
     {"id":{"name":"Obj_Door","path":"objects/Obj_Door/Obj_Door.yy",},"order":11,},
+    {"id":{"name":"Obj_Door2","path":"objects/Obj_Door2/Obj_Door2.yy",},"order":22,},
     {"id":{"name":"Spr_Alien_Crouch","path":"sprites/Spr_Alien_Crouch/Spr_Alien_Crouch.yy",},"order":10,},
     {"id":{"name":"Room_DeathScreen","path":"rooms/Room_DeathScreen/Room_DeathScreen.yy",},"order":7,},
     {"id":{"name":"Obj_Enemy","path":"objects/Obj_Enemy/Obj_Enemy.yy",},"order":4,},
