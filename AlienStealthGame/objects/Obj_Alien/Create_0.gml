@@ -7,3 +7,8 @@ hp = 1;
 
 instance_create_layer(x, y, "Player", Obj_Camera);
 instance_create_layer(x, y, "Gun", Obj_Gun);
+
+if(global.checkpointR == room){
+	x = global.checkpointx;
+	y = global.checkpointy;
+}
