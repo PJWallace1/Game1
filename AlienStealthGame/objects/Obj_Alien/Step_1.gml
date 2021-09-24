@@ -1,3 +1,4 @@
 if(hp < 1){
-	room_goto(Room_DeathScreen);
+	SlideTransition(TRANS_MODE.GOTO, Room_DeathScreen);
+	hascontrol = false;
 }

@@ -8,4 +8,3 @@ with(other){
 		direction = other.direction;
 	}
 }
-lives -= 1;
