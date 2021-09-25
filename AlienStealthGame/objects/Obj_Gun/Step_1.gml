@@ -22,6 +22,8 @@ else{
 	if (works && mouse_check_button_pressed(mb_left)) && (firingdelay < 0 && global.ammo > 0)
 	{
 		global.ammo--;
+		instance_create_layer(x, y, "Instances", Obj_ShotDetectionLeft);
+		instance_create_layer(x, y, "Instances", Obj_ShotDetectionRight);
 		recoil = 4;
 		firingdelay = 20;
 		with (instance_create_layer(x,y,"Bullets",Obj_Bullet))
