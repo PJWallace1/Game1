@@ -12,6 +12,7 @@ if(hascontrol){
 	//key_crouch = 0;
 }
 
+//Calculate movement deficiency based on crouch
 if(key_crouch){
 	walksp = 2;
 	grv = 0.8;

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Ammo",
-    "path": "sprites/Spr_Ammo/Spr_Ammo.yy",
+    "name": "Spr_AmmoBox",
+    "path": "sprites/Spr_AmmoBox/Spr_AmmoBox.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,14 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [],
-  "properties": [],
+  "properties": [
+    {"varType":1,"value":"3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"ammoContained","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Ammo",
+  "name": "Obj_AmmoBox",
   "tags": [],
   "resourceType": "GMObject",
 }

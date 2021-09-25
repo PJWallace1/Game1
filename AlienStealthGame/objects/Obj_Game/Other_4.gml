@@ -1,0 +1,1 @@
+global.ammoThisRoom = global.ammo;

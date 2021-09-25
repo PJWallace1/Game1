@@ -15,12 +15,12 @@ if(menu_control){
 		}
 	}
 	if(keyboard_check_pressed(vk_enter)){
-		menu_x_target = gui_width + 200;
+		menu_x_target = global.gui_width + 200;
 		menu_committed = menu_cursor;
 		menu_control = false;
 	}
 }
-if(menu_x > gui_width + 150 && menu_committed != -1){
+if(menu_x > global.gui_width + 150 && menu_committed != -1){
 	switch(menu_committed){
 		case 2: 
 			SlideTransition(TRANS_MODE.GOTO, Room_Tutorial);
