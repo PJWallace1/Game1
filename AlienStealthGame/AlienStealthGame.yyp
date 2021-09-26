@@ -42,6 +42,7 @@
     {"id":{"name":"Obj_Platform","path":"objects/Obj_Platform/Obj_Platform.yy",},"order":3,},
     {"id":{"name":"Spr_Vent","path":"sprites/Spr_Vent/Spr_Vent.yy",},"order":11,},
     {"id":{"name":"Spr_ShotDetectionLeft","path":"sprites/Spr_ShotDetectionLeft/Spr_ShotDetectionLeft.yy",},"order":29,},
+    {"id":{"name":"Room_Last","path":"rooms/Room_Last/Room_Last.yy",},"order":8,},
     {"id":{"name":"Obj_Transition","path":"objects/Obj_Transition/Obj_Transition.yy",},"order":16,},
     {"id":{"name":"Spr_Alien_Air","path":"sprites/Spr_Alien_Air/Spr_Alien_Air.yy",},"order":9,},
     {"id":{"name":"Spr_Enemy","path":"sprites/Spr_Enemy/Spr_Enemy.yy",},"order":13,},
@@ -88,6 +89,7 @@
     {"roomId":{"name":"Room_Boss","path":"rooms/Room_Boss/Room_Boss.yy",},},
     {"roomId":{"name":"Room_Credits","path":"rooms/Room_Credits/Room_Credits.yy",},},
     {"roomId":{"name":"Room_DeathScreen","path":"rooms/Room_DeathScreen/Room_DeathScreen.yy",},},
+    {"roomId":{"name":"Room_Last","path":"rooms/Room_Last/Room_Last.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
