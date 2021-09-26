@@ -5,6 +5,7 @@
     {"id":{"name":"Obj_Text","path":"objects/Obj_Text/Obj_Text.yy",},"order":10,},
     {"id":{"name":"Crate","path":"sprites/Crate/Crate.yy",},"order":12,},
     {"id":{"name":"Room_3","path":"rooms/Room_3/Room_3.yy",},"order":3,},
+    {"id":{"name":"Obj_Door3","path":"objects/Obj_Door3/Obj_Door3.yy",},"order":27,},
     {"id":{"name":"Spr_Detector_Sight","path":"sprites/Spr_Detector_Sight/Spr_Detector_Sight.yy",},"order":25,},
     {"id":{"name":"Spr_Sign","path":"sprites/Spr_Sign/Spr_Sign.yy",},"order":20,},
     {"id":{"name":"Obj_Door","path":"objects/Obj_Door/Obj_Door.yy",},"order":11,},
