@@ -1,1 +1,2 @@
 doesMove = true;
+hsp = walksp;
