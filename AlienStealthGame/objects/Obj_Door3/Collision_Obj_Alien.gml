@@ -10,6 +10,6 @@
 	
 	switch(room){
 		case Room_Last:
-		room_goto(Room_Credits);
+		room_goto(Room_2);
 	}
 	

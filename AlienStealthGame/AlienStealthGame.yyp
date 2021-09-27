@@ -52,6 +52,7 @@
     {"id":{"name":"Obj_Death_Screen","path":"objects/Obj_Death_Screen/Obj_Death_Screen.yy",},"order":22,},
     {"id":{"name":"Room_Menu","path":"rooms/Room_Menu/Room_Menu.yy",},"order":4,},
     {"id":{"name":"Spr_Marker","path":"sprites/Spr_Marker/Spr_Marker.yy",},"order":17,},
+    {"id":{"name":"Spr_Arrow","path":"sprites/Spr_Arrow/Spr_Arrow.yy",},"order":32,},
     {"id":{"name":"Spr_Enemy2","path":"sprites/Spr_Enemy2/Spr_Enemy2.yy",},"order":21,},
     {"id":{"name":"Obj_Enemy2","path":"objects/Obj_Enemy2/Obj_Enemy2.yy",},"order":13,},
     {"id":{"name":"Room_Boss","path":"rooms/Room_Boss/Room_Boss.yy",},"order":2,},

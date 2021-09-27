@@ -10,6 +10,6 @@
 	
 	switch(room){
 		case Room_Tutorial:
-		room_goto(Room_1);
+		room_goto(Room_2);
 	}
 	
