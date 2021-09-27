@@ -1,3 +1,4 @@
+
 if(place_meeting(x, y, Obj_Alien) && id != global.checkpoint){
 	global.checkpoint = id;
 	global.checkpointx = x;
@@ -5,6 +6,7 @@ if(place_meeting(x, y, Obj_Alien) && id != global.checkpoint){
 	global.checkpointR = room;
 	global.ammoThisRoom = global.ammo;
 }
+
 
 if(global.checkpointR == room && global.checkpoint == id){
 	image_index = 1;

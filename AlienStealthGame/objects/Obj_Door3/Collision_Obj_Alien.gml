@@ -9,7 +9,7 @@
 //}
 	
 	switch(room){
-		case Room_Last:
-		room_goto(Room_2);
+		case Room_2:
+		room_goto(Room_Boss);
 	}
 	

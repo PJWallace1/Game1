@@ -23,7 +23,7 @@ if(menu_control){
 if(menu_x > global.gui_width + 150 && menu_committed != -1){
 	switch(menu_committed){
 		case 2: 
-			SlideTransition(TRANS_MODE.GOTO, Room_Tutorial);
+			SlideTransition(TRANS_MODE.GOTO, Room_2);
 		break;
 		case 0: game_end(); break;
 	}

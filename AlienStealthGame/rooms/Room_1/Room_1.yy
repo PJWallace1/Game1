@@ -40,25 +40,11 @@
         {"properties":[
             {"propertyId":{"name":"text","path":"objects/Obj_Sign/Obj_Sign.yy",},"objectId":{"name":"Obj_Sign","path":"objects/Obj_Sign/Obj_Sign.yy",},"value":"\"You can jump a little \\n over two blocks high\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"Obj_Sign","path":"objects/Obj_Sign/Obj_Sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":960.0,"resourceVersion":"1.0","name":"inst_35D324C5","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"text","path":"objects/Obj_Sign/Obj_Sign.yy",},"objectId":{"name":"Obj_Sign","path":"objects/Obj_Sign/Obj_Sign.yy",},"value":"\"Pressing c or shift will allow you to crouch \\n so you can squeeze through small spaces\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"Obj_Sign","path":"objects/Obj_Sign/Obj_Sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1376.0,"y":960.0,"resourceVersion":"1.0","name":"inst_4AF34EC","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"text","path":"objects/Obj_Sign/Obj_Sign.yy",},"objectId":{"name":"Obj_Sign","path":"objects/Obj_Sign/Obj_Sign.yy",},"value":"\"However, crouching decreases your \\n jump and speed\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"Obj_Sign","path":"objects/Obj_Sign/Obj_Sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1664.0,"y":960.0,"resourceVersion":"1.0","name":"inst_4E414BAD","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"text","path":"objects/Obj_Sign/Obj_Sign.yy",},"objectId":{"name":"Obj_Sign","path":"objects/Obj_Sign/Obj_Sign.yy",},"value":"\"Go through the door to win\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"Obj_Sign","path":"objects/Obj_Sign/Obj_Sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3360.0,"y":800.0,"resourceVersion":"1.0","name":"inst_12015C47","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"text","path":"objects/Obj_Sign/Obj_Sign.yy",},"objectId":{"name":"Obj_Sign","path":"objects/Obj_Sign/Obj_Sign.yy",},"value":"\"Uh oh, it looks like a wall is blocking \\n your path. You can press S when \\n standing on a Vent to drop down and \\n crawl through. Go try it!\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"Obj_Sign","path":"objects/Obj_Sign/Obj_Sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1888.0,"y":960.0,"resourceVersion":"1.0","name":"inst_121565B3","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Entities","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Enemy","path":"objects/Obj_Enemy/Obj_Enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3104.0,"y":800.0,"resourceVersion":"1.0","name":"inst_107C17B5","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Enemy","path":"objects/Obj_Enemy/Obj_Enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2976.0,"y":800.0,"resourceVersion":"1.0","name":"inst_221A8F96","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Enemy","path":"objects/Obj_Enemy/Obj_Enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3200.0,"y":800.0,"resourceVersion":"1.0","name":"inst_575A3C4C","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Enemy2","path":"objects/Obj_Enemy2/Obj_Enemy2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2176.0,"y":704.0,"resourceVersion":"1.0","name":"inst_49EC0FCA","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Enemy2","path":"objects/Obj_Enemy2/Obj_Enemy2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2656.0,"y":928.0,"resourceVersion":"1.0","name":"inst_67027DBA","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":992.0,"resourceVersion":"1.0","name":"inst_538D3E3C","tags":[],"resourceType":"GMRInstance",},
@@ -375,8 +361,6 @@
     {"name":"inst_4DC8D94C","path":"rooms/Room_1/Room_1.yy",},
     {"name":"inst_58A1E51C","path":"rooms/Room_1/Room_1.yy",},
     {"name":"inst_35D324C5","path":"rooms/Room_1/Room_1.yy",},
-    {"name":"inst_4AF34EC","path":"rooms/Room_1/Room_1.yy",},
-    {"name":"inst_4E414BAD","path":"rooms/Room_1/Room_1.yy",},
     {"name":"inst_4259523D","path":"rooms/Room_1/Room_1.yy",},
     {"name":"inst_55C524A5","path":"rooms/Room_1/Room_1.yy",},
     {"name":"inst_332CD2C9","path":"rooms/Room_1/Room_1.yy",},
@@ -412,7 +396,6 @@
     {"name":"inst_7BD3C97E","path":"rooms/Room_1/Room_1.yy",},
     {"name":"inst_221A8F96","path":"rooms/Room_1/Room_1.yy",},
     {"name":"inst_575A3C4C","path":"rooms/Room_1/Room_1.yy",},
-    {"name":"inst_12015C47","path":"rooms/Room_1/Room_1.yy",},
     {"name":"inst_3041D222","path":"rooms/Room_1/Room_1.yy",},
     {"name":"inst_7BD4B275","path":"rooms/Room_1/Room_1.yy",},
     {"name":"inst_4D4C0375","path":"rooms/Room_1/Room_1.yy",},
@@ -548,10 +531,7 @@
     {"name":"inst_52FD9F75","path":"rooms/Room_1/Room_1.yy",},
     {"name":"inst_3615222B","path":"rooms/Room_1/Room_1.yy",},
     {"name":"inst_69786AE4","path":"rooms/Room_1/Room_1.yy",},
-    {"name":"inst_121565B3","path":"rooms/Room_1/Room_1.yy",},
     {"name":"inst_7D84540F","path":"rooms/Room_1/Room_1.yy",},
-    {"name":"inst_49EC0FCA","path":"rooms/Room_1/Room_1.yy",},
-    {"name":"inst_67027DBA","path":"rooms/Room_1/Room_1.yy",},
     {"name":"inst_13149D11","path":"rooms/Room_1/Room_1.yy",},
     {"name":"inst_4A0F0003","path":"rooms/Room_1/Room_1.yy",},
     {"name":"inst_59F77AEB","path":"rooms/Room_1/Room_1.yy",},
