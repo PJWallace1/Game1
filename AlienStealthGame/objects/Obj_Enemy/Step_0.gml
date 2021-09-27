@@ -15,6 +15,17 @@ if(doesMove){
 	x += hsp;
 
 	//Modify Enemy Sight
+	with(sightExID){
+		x = other.x;
+		y = other.y;
+		image_xscale = sign(other.hsp);
+		if(other.hsp > 0){
+			direction = 0;
+		}
+		else{
+			direction = 180;
+		}
+	}
 	with(sightID){
 		x = other.x;
 		y = other.y;

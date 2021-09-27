@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Detector_Sight",
-    "path": "sprites/Spr_Detector_Sight/Spr_Detector_Sight.yy",
+    "name": "Spr_Enemy_SightExt",
+    "path": "sprites/Spr_Enemy_SightExt/Spr_Enemy_SightExt.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,18 +22,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [
-    {"varType":3,"value":"True","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"doesRotate","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Detector_Sight",
+  "name": "Obj_Enemy_SightEx",
   "tags": [],
   "resourceType": "GMObject",
 }

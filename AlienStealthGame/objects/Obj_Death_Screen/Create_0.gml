@@ -12,7 +12,7 @@ menu_committed = -1;
 menu_control = true;
 
 menu[1] = "Continue";
-menu[0] = "Return to Menu";
+menu[0] = "Go to Menu";
 
 menu_items = array_length_1d(menu);
 menu_cursor = 1;

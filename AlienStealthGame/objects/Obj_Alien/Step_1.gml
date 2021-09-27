@@ -1,5 +1,7 @@
 if(hp < 1){
 	hascontrol = false;
+	vsp = 0;
+	hsp = 0;
 	alarm[0] = room_speed;
 	hp = 1000;
 }

@@ -3,6 +3,9 @@ if(hp <= 0)
 	with(sightID){
 		instance_destroy();
 	}
+	with(sightExID){
+		instance_destroy();
+	}
 	with(instance_create_layer(x, y, layer, Obj_Dead))
 	{
 		direction = other.hitfrom;
