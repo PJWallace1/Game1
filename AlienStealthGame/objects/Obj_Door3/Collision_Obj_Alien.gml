@@ -10,6 +10,6 @@
 	
 	switch(room){
 		case Room_2:
-		room_goto(Room_Boss);
+		room_goto(Room_Credits);
 	}
 	

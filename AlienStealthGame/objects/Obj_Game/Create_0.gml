@@ -9,3 +9,5 @@ global.curR = 0;
 
 global.ammo = 0;
 global.ammoThisRoom = 0;
+
+global.won = false;
