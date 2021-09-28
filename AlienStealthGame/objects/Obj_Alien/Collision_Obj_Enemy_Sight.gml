@@ -8,3 +8,5 @@ with(other){
 		direction = other.direction;
 	}
 }
+
+audio_play_sound(Player_Death_Sound, 1, false)

@@ -73,6 +73,7 @@ if(hascontrol){
 	}
 	else if(!place_meeting(x, y+1, Obj_Wall) && !position_meeting(x, y + 1, Obj_Platform))
 	{
+		// audio_play_sound(Jump_Sound, 1, false)
 		 sprite_index = Spr_Alien_Air;
 		 mask_index = Spr_Alien;
 		 image_speed = 0;

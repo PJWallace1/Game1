@@ -4,3 +4,4 @@ firingdelay = 0;
 recoil = 0;
 works = true;
 
+//audio_play_sound(gunshot_sound_effect, 1, false)

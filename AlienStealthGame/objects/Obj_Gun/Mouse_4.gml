@@ -9,3 +9,5 @@ if(works && firingdelay < 0)
 		image_angle = direction;
 	}
 }
+
+audio_play_sound(gunshot_sound_effect, 1, false)
