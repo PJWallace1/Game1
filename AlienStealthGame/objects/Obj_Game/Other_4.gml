@@ -10,7 +10,7 @@ if(room == Room_2){
 		audio_play_sound(Background_Music, 3, true)
 }
 
-if(room == Room_Last){
+if(room == Room_1){
 		audio_play_sound(Background_Music, 3, true)
 }
 
