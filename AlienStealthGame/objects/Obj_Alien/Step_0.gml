@@ -30,7 +30,7 @@ if(hascontrol){
 		vsp = -7;
 	}
 
-	//Horizontal Collision
+	///Horizontal Collision
 	if(place_meeting(x + hsp, y, Obj_Wall))
 	{
 		//sign() returns -1 for negative value and 1 for positive value
