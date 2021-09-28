@@ -50,39 +50,16 @@ if(doesMove){
 	}
 
 	y += vsp;
-
+	
 	//Animation
-	/*
-	if(!place_meeting(x, y+1, Obj_Wall))
-	{
-		 sprite_index = sEnemyA;
-		 image_speed = 0;
-		 if(sign(vsp) > 0)
-		 {
-			 image_index = 1;
-		 } 
-		 else 
-		 {
-			 image_index = 0;
-		 }
-	}
-	else
-	{
+	if(!doesMove){
 		image_speed = 1;
-		if(hsp == 0)
-		{
-			sprite_index = sEnemy;
-		}
-		else
-		{
-			sprite_index = sEnemyR;
-		}
+	} else{
+		image_speed = 0;
+		image_index = 0;
 	}
-
 	if(hsp != 0)
 	{
 		image_xscale = sign(hsp);
 	}
-	*/
-	//
 }
