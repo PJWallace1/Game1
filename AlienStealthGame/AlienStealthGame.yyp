@@ -52,6 +52,7 @@
     {"id":{"name":"Spr_ShotDetectionLeft","path":"sprites/Spr_ShotDetectionLeft/Spr_ShotDetectionLeft.yy",},"order":29,},
     {"id":{"name":"Obj_Transition","path":"objects/Obj_Transition/Obj_Transition.yy",},"order":16,},
     {"id":{"name":"Spr_Alien_Air","path":"sprites/Spr_Alien_Air/Spr_Alien_Air.yy",},"order":9,},
+    {"id":{"name":"Spr_Ground","path":"sprites/Spr_Ground/Spr_Ground.yy",},"order":34,},
     {"id":{"name":"Spr_Enemy","path":"sprites/Spr_Enemy/Spr_Enemy.yy",},"order":13,},
     {"id":{"name":"Obj_Enemy_SightEx","path":"objects/Obj_Enemy_SightEx/Obj_Enemy_SightEx.yy",},"order":28,},
     {"id":{"name":"Obj_Gun","path":"objects/Obj_Gun/Obj_Gun.yy",},"order":6,},
@@ -124,7 +125,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.3.574",
+    "IDEVersion": "2.3.4.583",
   },
   "resourceVersion": "1.4",
   "name": "AlienStealthGame",
