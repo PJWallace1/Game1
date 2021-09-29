@@ -51,13 +51,6 @@ if(doesMove){
 
 	y += vsp;
 	
-	//Animation
-	if(!doesMove){
-		image_speed = 1;
-	} else{
-		image_speed = 0;
-		image_index = 0;
-	}
 	if(hsp != 0)
 	{
 		image_xscale = sign(hsp);

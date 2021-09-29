@@ -1,6 +1,8 @@
 doesMove = false;
 facesRight = false;
 hsp = -1;
+image_speed = 0
+image_index = 0;
 with(sightID){
 	x = other.x;
 	y = other.y;
