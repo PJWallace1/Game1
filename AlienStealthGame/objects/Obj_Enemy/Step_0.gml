@@ -13,6 +13,7 @@ if(doesMove){
 	}
 
 	x += hsp;
+	
 
 	//Modify Enemy Sight
 	with(sightExID){
@@ -51,6 +52,7 @@ if(doesMove){
 
 	y += vsp;
 	
+	//Animation
 	if(hsp != 0)
 	{
 		image_xscale = sign(hsp);
